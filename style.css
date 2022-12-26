@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+body{
+    background-color: black;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+}
+.header{
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+.header-logo{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 0.5rem;
+}
+.header-name-container{
+    padding-top: 0.7rem;
+}
+.logo-text{
+    display: flex;
+    column-gap: 1rem;
+}
+div.nav{
+    padding-top: 0.4rem;
+    display: flex;
+}
+button.nav1{
+    font-weight: bold;
+    background-color: #007FFF;
+    border-radius: 0.5rem;
+    padding: 0.3rem;
+    font-family: 'Nunito', sans-serif;
+}
+button.nav{
+    font-weight: bold;
+    background-color: #007FFF;
+    border-radius: 0.5rem;
+    padding: 0.35rem;
+}
+img.nav{
+    height: 1rem;
+    width: 1rem;
+}
+.profile{
+    /* display: flex; */
+    justify-content: space-around;
+    margin-left: 2rem;
+}
+.profile-insights{
+    display: flex;
+}
+div.profile-photo{
+    padding: 1rem;
+    border-style: solid;
+    border: 0.5rem;
+    border-color: white;
+}
+img.profile-photo{
+    width: 5rem;
+    height: 6rem;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+.insights{
+    display: flex;
+    margin-top: 2rem;
+}
+.posts{
+    padding: 0.7rem;
+    text-align: center;
+}
+.followers{
+    padding: 0.7rem;
+    text-align: center;
+}
+.following{
+    padding: 0.7rem;
+    text-align: center;
+}
+.profile-title{
+    margin-left: 2rem;
+}
+.profile-name{
+    font-size: 2rem;
+}
+.profile-occupation{
+    font-size: 1rem;
+    color: grey;
+}
+.profile-social{
+    display: flex;
+}
+.social-icon{
+    width: 2rem;
+    height: 2rem;
+    padding: 1rem;
+}
+.follow-button-container{
+    display: flex;
+    justify-content: space-around;
+}
+.follow-button{
+    background-color: #007FFF;
+    border-radius: 5rem;
+    padding: 0.5rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    font-size: larger;
+    color: white;
+}
+.email-button{
+    background-color: transparent;
+    border-radius: 5rem;
+    padding: 0.5rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    font-size: larger;
+    color: white;
+    border: 0.1rem;
+    border-color: white;
+    border-style: solid;
+}
+.slider-button-container{
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.slider-button{
+    width: 50%;
+    background-color: transparent;
+    color: white;
+}
+.slider-button:active{
+    width: 50%;
+    background-color: transparent;
+    color: #007FFF;
+}
